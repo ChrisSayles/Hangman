@@ -1,0 +1,38 @@
+body {
+	background-image: url("../images/topgunbg.jpg");
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 95px;
+	color: #9b4621;
+}
+
+h2 {
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 50px;
+	color: white;
+}
+
+p {
+	font-family: 'Allerta Stencil', sans-seif;
+	font-size: 40px;
+	color: white;
+}
+
+#game {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.customFooter {
+	text-align: center;
+	background-color: black;
+	font-family: 'Allerta Stencil', sans-serif;
+	color: #9b4621;
+}
+
+.footerText {
+	margin-top:15px;
+}
