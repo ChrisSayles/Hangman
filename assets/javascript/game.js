@@ -62,6 +62,7 @@ window.onload = function() {
   			alert("Yeehaw Jesters Dead!")
   			reset();
   			htmlRewrite();
+        lives = 10;
   		}
   		if (lives === 0) {
   			winAudioLoss.play();
@@ -69,7 +70,6 @@ window.onload = function() {
   				if (playAgain = true) {
   					guesses = [];
   					dashes = [];
-  					
   					reset();
   					htmlRewrite();
   					wins = 0;
